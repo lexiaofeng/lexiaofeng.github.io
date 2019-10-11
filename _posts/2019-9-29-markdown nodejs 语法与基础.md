@@ -20,7 +20,7 @@ var port = 3000;
 //req 表示请求(request) / res 表示响应 (response)
 var server = http.createServer(function(req,res){
     //设置http头信息 文件类型是html；字符集 UTF8
-    <font color=#FF0000 >res.setHeader("Content-Type" , "text/html;charset=UTF8");</font> 
+    res.setHeader("Content-Type" , "text/html;charset=UTF8");
    res.end('hi  这是我的第一次');
 });
 
