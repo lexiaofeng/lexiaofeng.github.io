@@ -78,7 +78,11 @@ git rm –cached 把文件.DS_Store从git的索引库中移除,但是对文件.D
 3.`git add --all`
 4.`git commit -m '.DS_Store banished!'`·
 
-##具体全局变量忽略.DS_Store文件
+
+
+
+
+##具体 全局变量忽略.DS_Store文件
 
 Mac OS X Finder 进入的每个目录都会有个名为` .DS_Store `的文件, 用于存储当前文件夹的一些详细的` metadata `信息，例如文件夹的排序等信息。在每次提交代码时，我们需要去忽略这类文件的提交。那怎么在` git commit `过程中忽略这种类型的文件呢？
 
